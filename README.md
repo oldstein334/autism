@@ -25,8 +25,9 @@ pip install -r requirements.txt
 
 3. **Download Model File** (Diperlukan):
    - Model file (`model_deteksi_autisme.h5`) tidak disertakan dalam repository karena ukurannya yang besar (>100MB)
-   - Silakan download model file dari [link yang akan disediakan] 
-   - Letakkan file model di folder `model/model_deteksi_autisme.h5`
+   - File model harus didownload terpisah dan ditempatkan di folder `model/`
+   - Lihat petunjuk lengkap di `model/README.md`
+   - **PENTING**: Aplikasi tidak akan berjalan tanpa file model ini!
 
 4. Jalankan aplikasi:
 ```bash
